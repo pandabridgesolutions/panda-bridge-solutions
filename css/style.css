@@ -633,6 +633,10 @@ h6 {
     padding: 60px 0 40px 0;
 }
 
+#services .section-header {
+    padding-bottom: 20px;
+}
+
 #services .box {
     padding: 30px;
     position: relative;
@@ -1258,6 +1262,21 @@ h6 {
 
 #faq #faq-list a.collapsed i::before {
     content: "\f2c7" !important;
+}
+
+/* Contact Form */
+
+.form-control {
+    height: 53px;
+    border-radius: 0;
+    border: 1px solid #dae0e5;
+}
+
+.form-control:active,
+.form-control:focus {
+    outline: none;
+    box-shadow: none;
+    border: 1px solid #2d71a1;
 }
 
 /*--------------------------------------------------------------
