@@ -1530,6 +1530,10 @@ h6 {
         -ms-flex-pack: end;
         justify-content: flex-end;
     }
+
+   #about .intro-text {
+       padding-top: 55px;
+   }
 }
 
 @media (min-width: 992px) {
