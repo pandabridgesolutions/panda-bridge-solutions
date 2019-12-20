@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e30cc2ce-7fa1-4177-908f-974c3ed7a344" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="390" column="152" selection-start-line="390" selection-start-column="152" selection-end-line="390" selection-end-column="152" />
+            <state relative-caret-position="108">
+              <caret line="342" column="189" selection-start-line="342" selection-start-column="189" selection-end-line="342" selection-end-column="189" />
               <folding>
                 <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -38,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="1349" column="1" selection-start-line="1349" selection-start-column="1" selection-end-line="1349" selection-end-column="1" />
+            <state relative-caret-position="358">
+              <caret line="1294" column="19" lean-forward="true" selection-start-line="1294" selection-start-column="19" selection-end-line="1294" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -69,8 +68,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>bout us</find>
-      <find>font-weight</find>
       <find>bout Sof</find>
       <find>favid</find>
       <find>footer</find>
@@ -97,8 +94,10 @@
       <find>contactform.js</find>
       <find>we hire</find>
       <find>form ac</find>
+      <find>subscribe</find>
       <find>replace</find>
       <find>form</find>
+      <find>Full Name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -214,12 +213,12 @@
       <workItem from="1576187827756" duration="516000" />
       <workItem from="1576189328459" duration="17000" />
       <workItem from="1576189363405" duration="20670000" />
-      <workItem from="1576803626416" duration="10031000" />
+      <workItem from="1576803626416" duration="10486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10031000" />
+    <option name="totallyTimeSpent" value="10486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -272,24 +271,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contactform/contactform.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="1349" column="1" selection-start-line="1349" selection-start-column="1" selection-end-line="1349" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="390" column="152" selection-start-line="390" selection-start-column="152" selection-end-line="390" selection-end-column="152" />
+        <state relative-caret-position="108">
+          <caret line="342" column="189" selection-start-line="342" selection-start-column="189" selection-end-line="342" selection-end-column="189" />
           <folding>
             <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -302,6 +287,20 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#i#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contactform/contactform.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="1294" column="19" lean-forward="true" selection-start-line="1294" selection-start-column="19" selection-end-line="1294" selection-end-column="19" />
         </state>
       </provider>
     </entry>
