@@ -23,7 +23,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: # #fffA2E;
+    color: #fffA2E;
     outline: none;
     text-decoration: none;
 }
@@ -142,7 +142,7 @@ h6 {
 }
 
 #topbar .social-links a:hover {
-    color: # #fffA2E;
+    color: #fffA2E;
 }
 
 #topbar .social-links a:first-child {
@@ -155,8 +155,6 @@ h6 {
 
 #header {
     height: 120px;
-    transition: all 0.5s;
-    transition: all 0.5s;
     padding: 20px 0;
     position: fixed;
     left: 0;
@@ -479,6 +477,8 @@ h6 {
     font-weight: 700;
     position: relative;
     font-family: 'DM Serif Text', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .section-header p {
@@ -554,7 +554,6 @@ h6 {
     transition: 0.5s;
     color: #fff;
     background: #5B8A7B;
-    color: #fff;
 }
 
 #about .learn-more:hover {
@@ -1150,10 +1149,16 @@ h6 {
 }
 
 #pricing .card .card-header {
-    background-color: white;
+    background-color: #fff;
     border-bottom: 0px;
     -moz-text-align-last: center;
     text-align-last: center;
+}
+
+#pricing .card .card-header h3 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 18px;
 }
 
 #pricing .card .card-title {
@@ -1163,6 +1168,7 @@ h6 {
 
 #pricing .card .card-block {
     padding-top: 0;
+    padding-bottom: 20px;
     text-align: center;
 }
 
@@ -1179,14 +1185,6 @@ h6 {
     color: #535074;
 }
 
-#pricing .card h3 .currency {
-    font-size: 30px;
-    position: relative;
-    font-weight: 400;
-    top: -30px;
-    letter-spacing: 0px;
-}
-
 #pricing .card h3 .period {
     font-size: 16px;
     color: #6c67a3;
@@ -1201,8 +1199,6 @@ h6 {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 500;
-    color: #5f5b96;
-    border-radius: 0;
     padding: 10px 24px;
     letter-spacing: 1px;
     border-radius: 3px;
@@ -1212,7 +1208,13 @@ h6 {
 }
 
 #pricing .card .btn:hover {
-    background: #fff;
+    background: #AC8C6C;
+}
+
+#pricing .card .card-block .list-group .list-group-item span {
+    font-weight: 500;
+    margin-bottom: 15px;
+    font-size: 14px;
 }
 
 /* Frequently Asked Questions Section
@@ -1281,8 +1283,72 @@ h6 {
     border: 1px solid #2d71a1;
 }
 
+/* Pricing Table Section
+--------------------------------*/
+#pricing .block-pricing {
+    background: #fff;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 0 4px 0 rgba(0, 0, 0, 0.19);
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    #pricing .block-pricing {
+        margin-bottom: 30px;
+    }
+}
+
+#pricing .block-pricing .table {
+    margin-bottom: 0;
+    padding: 30px 15px;
+    max-width: 100%;
+    width: 100%;
+}
+
+#pricing .block-pricing .table h4 {
+    padding-bottom: 30px;
+}
+
+#pricing .block-pricing h2 {
+    margin-bottom: 30px;
+}
+
+#pricing .block-pricing ul {
+    list-style: outside none none;
+    margin: 10px auto;
+    max-width: 240px;
+    padding: 0;
+}
+
+#pricing .block-pricing ul li {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.3);
+    padding: 12px 0;
+    text-align: center;
+}
+
+#pricing .block-pricing ul li b {
+    color: #3c4857;
+}
+
+#pricing .block-pricing .table .table_btn a {
+    background: #71c55d;
+    color: #fff;
+    margin: 0;
+    display: inline-block;
+}
+
+#pricing .block-pricing .table .table_btn a:hover {
+    background: #55b03f;
+}
+
+#pricing .block-pricing .table .table_btn a .fa {
+    font-size: 13px;
+    margin-right: 5px;
+}
+
+
 /*Form*/
-/* reset */
 form input,
 form select,
 form textarea,
@@ -1357,6 +1423,21 @@ form [type="reset"]:focus {
 form select {
     text-transform: none;
 }
+
+form [type="submit"] {
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    transition: 0.5s;
+    color: #fff;
+    background: #5B8A7B;
+}
+
 
 
 /*--------------------------------------------------------------
@@ -1528,7 +1609,6 @@ form select {
 
 #footer .footer-top .form input,
 #footer .footer-top .form textarea {
-    border-radius: 0;
     box-shadow: none;
     border: 1px solid #dce1ec;
     font-size: 14px;
@@ -1564,7 +1644,7 @@ form select {
 }
 
 #footer .footer-top .form button[type="submit"]:hover {
-    background: # #fffA2E;
+    background: #fffA2E;
     cursor: pointer;
 }
 
@@ -1587,7 +1667,7 @@ form select {
 }
 
 #footer .credits a:hover {
-    color: # #fffA2E;
+    color: #fffA2E;
 }
 
 /*--------------------------------------------------------------
@@ -1651,6 +1731,7 @@ form select {
     #pricing .card {
         margin-bottom: 50px;
     }
+
 }
 
 @media (max-width: 768px) {
