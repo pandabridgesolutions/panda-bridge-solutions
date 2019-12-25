@@ -1730,6 +1730,10 @@ form [type="submit"] {
         padding-top: 15px;
     }
 
+    #intro .intro-img {
+        padding-top: 25px;
+    }
+
     #why-us .why-us-content {
         padding-top: 30px;
     }
