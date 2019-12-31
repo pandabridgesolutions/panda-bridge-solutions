@@ -1128,17 +1128,6 @@ h6 {
     position: relative;
 }
 
-#pricing .card:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 0%;
-    height: 5px;
-    background-color: #5B8A7B;
-    transition: 0.5s;
-}
-
 #pricing .card:hover {
     -webkit-transform: scale(1.05);
     transform: scale(1.05);
@@ -1163,8 +1152,10 @@ h6 {
 }
 
 #pricing .card .card-title {
-    margin-bottom: 16px;
+    padding: 0 10px;
+    font-weight: 500;
     color: #535074;
+    min-height: 60px;
 }
 
 #pricing .card .card-block {
@@ -1173,9 +1164,10 @@ h6 {
     text-align: center;
 }
 
-#pricing .card .list-group-item {
+#pricing .card .list-group {
     border: 0px;
-    padding: 6px;
+    text-align: center;
+    padding: 0 40px;
     color: #2d3436;
     font-weight: 300;
 }
@@ -1192,10 +1184,6 @@ h6 {
     letter-spacing: 0px;
 }
 
-#pricing .card .list-group {
-    margin-bottom: 15px;
-}
-
 #pricing .card .btn {
     text-transform: uppercase;
     font-size: 13px;
@@ -1209,7 +1197,7 @@ h6 {
 }
 
 #pricing .card .btn:hover {
-    background: #AC8C6C;
+    background: #808B95;
 }
 
 #pricing .card .card-block .list-group .list-group-item span {
@@ -1217,6 +1205,36 @@ h6 {
     margin-bottom: 15px;
     font-size: 14px;
 }
+
+/*will not apply to any window with width less than 990 (mobile phones)*/
+
+@media (min-width: 990px) {
+    #pricing .card .list-group .description {
+        min-height: 225px;
+    }
+    #pricing .card {
+        min-height: 300px;
+    }
+}
+
+@media (min-width: 1199px) {
+    #pricing .card .list-group .description {
+        min-height: 160px;
+    }
+
+    #pricing .card:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0%;
+        height: 5px;
+        background-color: #808B95;
+        transition: 0.5s;
+    }
+
+}
+
 
 /* Frequently Asked Questions Section
 --------------------------------*/
@@ -1319,7 +1337,6 @@ h6 {
     list-style: outside none none;
     margin: 10px auto;
     max-width: 240px;
-    padding: 0;
 }
 
 #pricing .block-pricing ul li {
@@ -1438,7 +1455,6 @@ form [type="submit"] {
     color: #fff;
     background: #5B8A7B;
 }
-
 
 
 /*--------------------------------------------------------------
