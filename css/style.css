@@ -231,8 +231,8 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-    font-family: Montserrat, sans-serif;
     font-size: 13px;
+    font-family: Montserrat, sans-serif;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -241,7 +241,6 @@ h6 {
     border-radius: 4px;
     transition: 0.5s;
     background: #5B8A7B;
-    color: #fff;
     color: #fff;
 }
 
@@ -375,7 +374,7 @@ h6 {
     left: -260px;
     width: 260px;
     padding-top: 18px;
-    background: rgba(40, 38, 70, 0.8);
+    background: #2d3436;
     transition: 0.4s;
 }
 
@@ -441,8 +440,8 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-    margin: 18px 18px 0 0;
-    color: #065e77;
+    margin: 30px 25px 0;
+    color: #2d3436;
 }
 
 .mobile-nav-overly {
@@ -452,7 +451,7 @@ h6 {
     top: 0;
     left: 0;
     position: fixed;
-    background: rgba(40, 38, 70, 0.8);
+    background: #f2eeeb;
     overflow: hidden;
     display: none;
 }
@@ -623,7 +622,6 @@ h6 {
 }
 
 
-
 @media (min-width: 992px) {
     #about .about-pictures {
         padding: 100px 0
@@ -642,9 +640,10 @@ h6 {
         padding: 0 0 45px 0;
     }
 }
+
 @media (max-width: 576px) {
     #about .about-us {
-       font-size: 21px;
+        font-size: 21px;
     }
 }
 
@@ -1327,7 +1326,7 @@ h6 {
     border: 1px solid #2d71a1;
 }
 
-@media (max-width: 426px){
+@media (max-width: 426px) {
     #footer span {
         font-size: 18px;
     }
@@ -1862,3 +1861,24 @@ form [type="submit"] {
     z-index: -1;
 }
 
+/*Job Posting Page*/
+
+.apply-btn {
+    font-size: 13px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: #5B8A7B;
+    color: #fff;
+    margin: 40px 0 80px;
+}
+
+.apply-btn:hover {
+    background: #848C94;
+    color: white;
+}
