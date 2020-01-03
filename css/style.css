@@ -17,14 +17,15 @@ body {
 
 a {
     color: #5B8A7B;
+    font-weight: 600;
     transition: 0.5s;
+    text-decoration: none;
 }
 
 a:hover,
 a:active,
 a:focus {
-    color: #fffA2E;
-    outline: none;
+    color: #222222;
     text-decoration: none;
 }
 
@@ -155,7 +156,7 @@ h6 {
 
 #header {
     height: 120px;
-    padding: 20px 0;
+    padding: 50px 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -935,6 +936,20 @@ h6 {
 #portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
     opacity: 1;
 }
+
+/* Process Section
+--------------------------------*/
+
+#process {
+    margin: 170px 0;
+}
+
+#process .step-heading {
+    padding: 10px 10px 10px 0;
+    font-size: 35px;
+    font-weight: bolder
+}
+
 
 /* Testimonials Section
 --------------------------------*/
