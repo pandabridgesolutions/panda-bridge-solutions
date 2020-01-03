@@ -622,17 +622,35 @@ h6 {
     font-family: "Montserrat", sans-serif;
 }
 
-#about .about-us {
-    padding-top: 45px;
-    font-size: 26px;
-    text-align: center;
-    font-family: "Montserrat", sans-serif;
+
+
+@media (min-width: 992px) {
+    #about .about-pictures {
+        padding: 100px 0
+    }
+
+    #about .about-us {
+        padding-top: 45px;
+        font-size: 26px;
+        text-align: center;
+        font-family: "Montserrat", sans-serif;
+    }
+}
+
+@media (max-width: 991px) {
+    #about .about-us {
+        padding: 0 0 45px 0;
+    }
+}
+@media (max-width: 576px) {
+    #about .about-us {
+       font-size: 21px;
+    }
 }
 
 
 /* Services Section
 --------------------------------*/
-
 #services {
     padding: 60px 0 40px 0;
 }
@@ -695,7 +713,6 @@ h6 {
 
 /* Why Us Section
 --------------------------------*/
-
 #why-us {
     padding: 60px 0;
 }
@@ -747,7 +764,6 @@ h6 {
 
 /* Call To Action Section
 --------------------------------*/
-
 #call-to-action {
     background: #2d2b46;
     background-size: cover;
@@ -785,7 +801,6 @@ h6 {
 
 /* Features Section
 --------------------------------*/
-
 #features {
     padding: 80px 0;
 }
@@ -797,7 +812,6 @@ h6 {
 
 /* Portfolio Section
 --------------------------------*/
-
 #portfolio {
     padding: 60px 0;
 }
@@ -939,9 +953,16 @@ h6 {
 
 /* Process Section
 --------------------------------*/
+@media (min-width: 478px) {
+    #process {
+        margin: 170px 0;
+    }
+}
 
-#process {
-    margin: 170px 0;
+@media (max-width: 478px) {
+    #process {
+        margin: 130px 0;
+    }
 }
 
 #process .step-heading {
@@ -953,7 +974,6 @@ h6 {
 
 /* Testimonials Section
 --------------------------------*/
-
 #testimonials {
     padding: 60px 0;
 }
@@ -1010,7 +1030,6 @@ h6 {
 
 /* Team Section
 --------------------------------*/
-
 #team {
     padding: 60px 0;
 }
@@ -1092,7 +1111,6 @@ h6 {
 
 /* Clients Section
 --------------------------------*/
-
 #clients {
     padding: 60px 0;
 }
@@ -1129,7 +1147,6 @@ h6 {
 
 /* Positions Section
 --------------------------------*/
-
 #positions {
     padding: 80px 0;
 }
@@ -1149,11 +1166,9 @@ h6 {
 /*    transform: scale(1.05);*/
 /*    box-shadow: 0 20px 35px 0 rgba(0, 0, 0, 0.08);*/
 /*}*/
-
 /*#positions .card:hover:after {*/
 /*    width: 100%;*/
 /*}*/
-
 #positions .card .card-header {
     background-color: #fff;
     border-bottom: 0px;
@@ -1245,13 +1260,11 @@ h6 {
 
 
 /*will not apply to any window with width less than 990 (mobile phones)*/
-
 @media (min-width: 990px) {
 }
 
 /* Frequently Asked Questions Section
 --------------------------------*/
-
 #faq {
     padding: 60px 0;
     overflow: hidden;
@@ -1301,7 +1314,6 @@ h6 {
 }
 
 /* Contact Form */
-
 .form-control {
     height: 25px;
     border-radius: 0;
@@ -1313,6 +1325,12 @@ h6 {
     outline: none;
     box-shadow: none;
     border: 1px solid #2d71a1;
+}
+
+@media (max-width: 426px){
+    #footer span {
+        font-size: 18px;
+    }
 }
 
 /* Pricing Table Section
@@ -1474,7 +1492,6 @@ form [type="submit"] {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-
 #footer {
     font-size: 14px;
     background: #fff;
@@ -1703,7 +1720,6 @@ form [type="submit"] {
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
-
 @media (min-width: 991px) {
     #call-to-action .cta-btn-container {
         display: -webkit-box;
