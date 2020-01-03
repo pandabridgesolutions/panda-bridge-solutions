@@ -597,7 +597,7 @@
 /* Pricing Section
 --------------------------------*/
 
-#pricing {
+#positions {
 
   padding: 80px 0;
 
@@ -610,7 +610,7 @@
     border-radius: 0px;
     box-shadow: 0 3px 0px 0 rgba($secondary, .08);
     transition: all .3s ease-in-out;
-    padding: 36px 0;
+    padding: 20px 0;
     position: relative;
 
     @media (max-width: 991px ) {
