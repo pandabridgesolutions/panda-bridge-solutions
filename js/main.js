@@ -25,6 +25,17 @@
         }
     });
 
+    // experimental
+    $(window).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 250) {
+            $('.my-header').slideDown('slow');
+        } else {
+            $('.my-header').slideUp('slow');
+        }
+    });
+    // end experiment
+
     if ($(window).scrollTop() > 100) {
         $('#header').addClass('header-scrolled');
     }
