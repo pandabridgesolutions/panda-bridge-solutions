@@ -544,7 +544,7 @@ h6 {
     display: none;
     position: fixed;
     color: #2d3436;
-    height: 160px;
+    height: 140px;
     top: 90px;
     width: 100%;
     z-index: 1;
@@ -552,6 +552,11 @@ h6 {
     background-color: #dfe6e9;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, .15);
 }
+
+@media (max-width: 366px) {
+    .my-title h2 {
+        font-size: 25px;
+    }}
 
 /*display: none;*/
 /*position: fixed;*/
@@ -1312,7 +1317,7 @@ h6 {
     content: "\f2c7" !important;
 }
 
-/* Contact Form */
+ /*Contact Form*/
 .form-control {
     height: 25px;
     border-radius: 0;
@@ -1330,6 +1335,11 @@ h6 {
     #footer span {
         font-size: 18px;
     }
+}
+
+.same-line {
+    display: flex; /* 2. display flex to the rescue */
+    flex-direction: row;
 }
 
 /* Pricing Table Section
@@ -1436,6 +1446,13 @@ form textarea,
     margin-bottom: 1.5rem;
 }
 
+.country-list {
+    background: #fff url('../img/sort-down-solid.svg') right no-repeat;
+    background-position: right 20px top 30%, 0 0;
+    background-size: 18px auto, 100%;
+    color: gray;
+}
+
 form input:focus,
 form select:focus,
 form textarea:focus,
@@ -1445,6 +1462,7 @@ form textarea:focus,
     outline-width: thin;
     outline-color: gray;
     outline-offset: -1px;
+    outline: none;
 }
 
 form [type="text"],
@@ -1467,10 +1485,6 @@ form [type="button"]:focus,
 form [type="submit"]:focus,
 form [type="reset"]:focus {
     outline: none;
-}
-
-form select {
-    text-transform: none;
 }
 
 form [type="submit"] {
@@ -1665,11 +1679,6 @@ form [type="submit"] {
     padding: 8px 30px;
     color: #fff;
     transition: 0.3s;
-}
-
-#footer .footer-top .form button[type="submit"]:hover {
-    background: #fffA2E;
-    cursor: pointer;
 }
 
 #footer .footer-top p {
@@ -1875,10 +1884,17 @@ form [type="submit"] {
     transition: 0.5s;
     background: #5B8A7B;
     color: #fff;
-    margin: 40px 0 80px;
 }
 
 .apply-btn:hover {
     background: #848C94;
     color: white;
+}
+
+.apply-btn-header-margin {
+    margin: 10px 0;
+}
+
+.apply-btn-margin {
+    margin: 40px 0 60px;
 }
