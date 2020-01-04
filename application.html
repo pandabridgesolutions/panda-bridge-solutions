@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>pandabridge️</title>
+    <title>Application</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -35,7 +35,6 @@
 Header
 ============================-->
 <header id="header">
-
     <div class="container">
         <div class="logo float-left">
             <!-- Uncomment below if you prefer to use an image logo -->
@@ -59,90 +58,99 @@ Header
     ============================-->
 <section id="process">
     <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>Résumé</h4>
-                <p>
-                    Please attach your résumé.
-                </p>
-            </div>
-        </div>
+        <h2 class="section-heading" style="margin-bottom: 25px">
+            <div class="job-title">Public School Teacher</div>
+        </h2>
         <hr>
-        <div class="row">
-            <div class="col-lg-6">
-                <h4>Contact Information</h4>
-                <p>
-                    Please provide your contact information.
-                </p>
-            </div>
-            <div class="col-lg-6">
-                <form id="fs-frm" name="simple-contact-info-form" accept-charset="utf-8"
+        <div class="row" style="margin-top: 25px">
+            <div class="col">
+                <form accept-charset="UTF-8" enctype="multipart/form-data"
                       action="https://usebasin.com/f/478d6e7857f6" method="post">
-                    <fieldset id="fs-frm-inputs">
-                        <input type="text" placeholder="Name" name="name" id="full-name" required="">
-                        <div class="form-row">
-                            <div class="col-md-6 col-sm-12">
-                                <input type="email" placeholder="Email" name="email" id="email" required="">
-                            </div>
-                            <div class="col-md-6 col-sm-12">
-                                <input type="text" placeholder="SkypeId" name="skype-id" id="skype-id" required="">
-                            </div>
+                    <div class="row">
+                        <div class="col">
+                            <h4>Résumé</h4>
+                            <p>
+                                Please attach your résumé.
+                            </p>
                         </div>
-                        <select class="country-list" name="country" id="countries" required="">
-                            <option value="" selected="">Country</option>
-                        </select>
-                        <div class="form-row">
-                            <div class="col-md-3 col-sm-3">
-                                <select style="color: gray;" disabled name="items" id="pincode" required="required">
-                                    <option value="" selected="">Country Code</option>
+                        <div class="col">
+                            <input type="file" name="resume" required>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h4>Contact Information</h4>
+                            <p>
+                                Please include your contact information.
+                            </p>
+                        </div>
+                        <div class="col">
+                            <fieldset id="fs-frm-inputs">
+                                <div class="form-row">
+                                    <div class="col-md-6 col-sm-12">
+                                        <input type="text" placeholder="First Name" name="first-name" id="first-name"
+                                               required="">
+                                    </div>
+                                    <div class="col-md-6 col-sm-12">
+                                        <input type="text" placeholder="Last Name" name="last-name" id="last-name"
+                                               required="">
+                                    </div>
+                                </div>
+                                <input type="email" placeholder="Email" name="email" id="email" required="">
+                                <input type="text" placeholder="SkypeId" name="skype-id" id="skype-id" required="">
+                                <select class="country-list" name="country" id="countries" required="">
+                                    <option value="" selected="">Country</option>
+                                </select>
+                                <div class="form-row">
+                                    <div class="col-md-3 col-sm-3 col-4">
+                                        <select style="color: gray;" disabled name="items" id="pincode"
+                                                required="required">
+                                        </select>
+                                    </div>
+                                    <div class="col-md-9 col-sm-9 col-8">
+                                        <input type="text" placeholder="Phone Number" name="phone-number"
+                                               id="phone-number" required="">
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col">
+                            <h4 style="margin-bottom: 25px">Job Preferences</h4>
+                        </div>
+                        <div class="col">
+                            <div class="col" style="padding: 0">
+                                <p style="margin: 0">What is your preferred location?</p>
+                                <select name="Location Preference" id="Location Preference" required="">
+                                    <option value="Choose" selected="" disabled="">Choose</option>
+                                    <option value="Beijing">Beijing</option>
+                                    <option value="Shanghai">Shanghai</option>
+                                    <option value="Shenzhen">Shenzhen</option>
+                                    <option value="Guangzhou">Guangzhou</option>
+                                    <option value="Undecided">Undecided</option>
                                 </select>
                             </div>
-                            <div class="col-md-9 col-sm-9">
-                                <input type="text" placeholder="Phone Number" name="phone-number" id="phone-number"
-                                       required="">
+                            <div class="col" style="padding: 0">
+                                <p style="margin: 0">What grade do you prefer to teach?</p>
+                                <select name="Prefer Student Age" id="Student Age Preference" required="">
+                                    <option value="Choose" selected="" disabled="">Choose</option>
+                                    <option value="Pre-School">Pre-School</option>
+                                    <option value="Elementary">Elementary</option>
+                                    <option value="Middle School">Middle School</option>
+                                    <option value="High School">High School</option>
+                                    <option value="Undecided">Undecided</option>
+                                </select>
                             </div>
                         </div>
-                    </fieldset>
+                    </div>
+                    <hr>
                     <input type="submit" value="Submit" class="float-right" style="border-radius: 10px">
                 </form>
             </div>
         </div>
-        <hr>
-        <div class="row">
-            <div class="col-6">
-                <div class="col-lg-12">
-                    <h4>Job Preferences</h4>
-                </div>
-            </div>
-
-
-            <div class="col-6">
-                <div class="col-lg-6">
-                    <label for="timely">1. Choose your preferred location.</label><br>
-                    <select name="timely" id="timely" required="">
-                        <option value="Choose" selected="" disabled="">Choose</option>
-                        <option value="1">Beijing</option>
-                        <option value="3">Shanghai</option>
-                        <option value="5">Shenzhen</option>
-                        <option value="7">Guangzhou</option>
-                        <option value="9">Philadelphia</option>
-                    </select>
-                </div>
-                <div class="col-lg-12">
-
-                    <label for="timely">2. What ages do you prefer to teach?</label><br>
-                    <select name="quality" id="quality" required="">
-                        <option value="Choose" selected="" disabled="">Choose</option>
-                        <option value="1">Babies</option>
-                        <option value="3">Teens</option>
-                        <option value="5">Adults</option>
-                        <option value="7">Elderly</option>
-                    </select>
-                </div>
-            </div>
-        </div>
-
-
     </div>
 
 </section><!-- #about -->
