@@ -559,6 +559,12 @@ h6 {
     }
 }
 
+@media (max-width: 348px) {
+    .my-title h2 {
+        font-size: 20px;
+    }
+}
+
 /*display: none;*/
 /*position: fixed;*/
 /*top: 90px;*/
