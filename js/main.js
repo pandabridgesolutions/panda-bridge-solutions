@@ -31,7 +31,7 @@
         if (y > 250) {
             $('.my-header').slideDown('slow');
         } else {
-            $('.my-header').slideUp('slow');
+            $('.my-header').hide();
         }
     });
     // end experiment
