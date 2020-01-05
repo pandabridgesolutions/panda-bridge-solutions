@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30cc2ce-7fa1-4177-908f-974c3ed7a344" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/careers.html" beforeDir="false" afterPath="$PROJECT_DIR$/careers.html" afterDir="false" />
-    </list>
+    <list default="true" id="e30cc2ce-7fa1-4177-908f-974c3ed7a344" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
         <entry file="file://$PROJECT_DIR$/jobs/test-prep-teacher/application.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="67" column="65" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="65" />
+              <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -157,6 +154,9 @@
       <find>Job P</find>
       <find>https://usebasin.com/f/478d6e7857f6</find>
     </findStrings>
+    <replaceStrings>
+      <replace>https://usebasin.com/f/d3b0f22ec63c</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,7 +171,6 @@
         <option value="$PROJECT_DIR$/jobs/english-training-center.html" />
         <option value="$PROJECT_DIR$/jobs/english-training-instructor/application.html" />
         <option value="$PROJECT_DIR$/jobs/private-school-teacher/application.html" />
-        <option value="$PROJECT_DIR$/jobs/test-prep-teacher/application.html" />
         <option value="$PROJECT_DIR$/jobs/english-training-instructor/english-training-center.html" />
         <option value="$PROJECT_DIR$/jobs/private-school-teacher/private-school-teacher.html" />
         <option value="$PROJECT_DIR$/jobs/test-prep-teacher/test-prep-teacher.html" />
@@ -181,6 +180,7 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/our-positions.html" />
         <option value="$PROJECT_DIR$/careers.html" />
+        <option value="$PROJECT_DIR$/jobs/test-prep-teacher/application.html" />
       </list>
     </option>
   </component>
@@ -298,12 +298,12 @@
       <workItem from="1576189363405" duration="20670000" />
       <workItem from="1576803626416" duration="58344000" />
       <workItem from="1577839850454" duration="32045000" />
-      <workItem from="1578074595801" duration="9007000" />
+      <workItem from="1578074595801" duration="9245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9007000" />
+    <option name="totallyTimeSpent" value="9245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -500,7 +500,7 @@
     <entry file="file://$PROJECT_DIR$/jobs/test-prep-teacher/application.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="67" column="65" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="65" />
+          <caret line="67" column="36" selection-start-line="67" selection-start-column="36" selection-end-line="67" selection-end-column="36" />
         </state>
       </provider>
     </entry>
