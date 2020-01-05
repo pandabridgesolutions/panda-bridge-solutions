@@ -559,7 +559,7 @@ h6 {
     }
 }
 
-@media (max-width: 348px) {
+@media (max-width: 414px) {
     .my-title h2 {
         font-size: 20px;
     }

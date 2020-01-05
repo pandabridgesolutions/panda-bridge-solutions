@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e30cc2ce-7fa1-4177-908f-974c3ed7a344" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/jobs/english-training-instructor/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/private-school-teacher/application.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jobs/test-prep-teacher/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/public-school-teacher/application.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/english-training-center.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/english-training-instructor/english-training-center.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/international-great-wall.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/international-great-wall.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/our-positions.html" beforeDir="false" afterPath="$PROJECT_DIR$/our-positions.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/private-school-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/private-school-teacher/private-school-teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public-school-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/public-school-teacher/public-school-teacher.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-prep-teacher.html" beforeDir="false" afterPath="$PROJECT_DIR$/jobs/test-prep-teacher/test-prep-teacher.html" afterDir="false" />
-    </list>
+    <list default="true" id="e30cc2ce-7fa1-4177-908f-974c3ed7a344" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,20 +20,6 @@
               <caret line="61" column="45" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="45" />
               <folding>
                 <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/jobs/english-training-instructor/application.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="170" column="20" selection-start-line="170" selection-start-column="20" selection-end-line="170" selection-end-column="20" />
-              <folding>
-                <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#10213#16331#0" />
-                <element signature="e#16720#21927#0" />
               </folding>
             </state>
           </provider>
@@ -88,13 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/custom-file-input.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+            <state relative-caret-position="243">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -163,7 +148,9 @@
       <find>apply</find>
       <find>Publi</find>
       <find>public Sch</find>
+      <find>internation</find>
       <find>public</find>
+      <find>international</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -176,7 +163,6 @@
         <option value="$PROJECT_DIR$/process.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/application.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/jobs/english-training-instructor.html" />
         <option value="$PROJECT_DIR$/jobs/english-training-center.html" />
         <option value="$PROJECT_DIR$/jobs/english-training-instructor/application.html" />
@@ -186,6 +172,8 @@
         <option value="$PROJECT_DIR$/jobs/private-school-teacher/private-school-teacher.html" />
         <option value="$PROJECT_DIR$/jobs/test-prep-teacher/test-prep-teacher.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/js/custom-file-input.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -303,23 +291,23 @@
       <workItem from="1576189363405" duration="20670000" />
       <workItem from="1576803626416" duration="58344000" />
       <workItem from="1577839850454" duration="32045000" />
-      <workItem from="1578074595801" duration="7756000" />
+      <workItem from="1578074595801" duration="7957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7756000" />
+    <option name="totallyTimeSpent" value="7957000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2494043" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -395,13 +383,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/img/caret-square-down-solid.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-643">
-          <caret line="4" column="33" selection-start-line="4" selection-start-column="33" selection-end-line="4" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/img/china-schools.png">
       <provider selected="true" editor-type-id="images" />
@@ -492,10 +473,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/custom-file-input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+        <state relative-caret-position="243">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="108" lean-forward="true" selection-start-line="108" selection-end-line="108" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
