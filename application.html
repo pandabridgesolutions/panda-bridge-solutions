@@ -74,7 +74,7 @@ Header
                             </p>
                         </div>
                         <div class="col text-center">
-                            <input type="file" name="upload-resume-btn" id="upload-resume-btn" class="inputfile"
+                            <input required type="file" name="upload-resume-btn" id="upload-resume-btn" class="inputfile"
                                    data-multiple-caption="{count} files selected" multiple/>
                             <label for="upload-resume-btn" style="outline: none;">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17">
@@ -105,7 +105,7 @@ Header
                                 </div>
                                 <input type="email" placeholder="Email" name="email" id="email" required="">
                                 <input type="text" placeholder="SkypeId" name="skype-id" id="skype-id" required="">
-                                <select class="country-list" name="country" id="countries" required="">
+                                <select name="country" id="countries" required="">
                                     <option value="" selected="">Country</option>
                                 </select>
                                 <div class="form-row">
