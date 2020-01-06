@@ -3,7 +3,6 @@ $(document).ready(function () {
     var $items = $('select[name=items]');
 
     $cat.change(function () {
-        try {
             var $this = $(this).find(':selected');
             var rel = $this.attr('rel');
             var $set = $items.find('option.' + rel);
@@ -13,14 +12,10 @@ $(document).ready(function () {
                 return;
             }
 
-            // $items.show().find('option').hide();
+            $items.show().find('option').hide();
             $set.show().first().prop('selected', true);
             $set.attr('disabled', 'disabled');
-
-        } catch (e) {
-            document.getElementById('pincode').selectedIndex = 'Pin';
-        }
-
+            document.getElementById('country-code').value= $set.prop('label');
 
     });
 });
@@ -238,7 +233,7 @@ function countriesDropdown(container) {
         ZAM: "Zambia",
         ZAN: "Zanzibar",
         ZIM: "Zimbabwe"
-    }
+    };
     var out = "<select required><option value='' rel=''>Choose</option>";
     for (var key in countries) {
         out += "<option rel='" + key + "'>" + countries[key] + "</option>";
@@ -459,14 +454,23 @@ function pincodeDropdown(containernew) {
         ZAM: "+260",
         ZAN: "+255 24",
         ZIM: "+263"
-    }
-    var pinout = "<select><option class=''>Code</option>";
+    };
+    var pinout = "<select required><option value='' class='' rel=''>Code</option>";
     for (var i in pincode) {
-        pinout += "<option class='" + i + "'>" + pincode[i] + "</option>";
+        pinout += "<option rel='' class='" + i + "'>" + pincode[i] + "</option>";
     }
     pinout += "</select>";
-
+console.log(pinout);
     document.getElementById(containernew).innerHTML = pinout;
+
+
+    // var out = "<select required><option value='' rel=''>Choose</option>";
+    // for (var key in countries) {
+    //     out += "<option rel='" + key + "'>" + countries[key] + "</option>";
+    // }
+    // out += "</select>";
+    //
+    // document.getElementById(container).innerHTML = out;
 }
 
 pincodeDropdown("pincode");
