@@ -290,7 +290,6 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
 .main-nav li:hover > a {
     color: #5B8A7B;
     font-weight: 700;
